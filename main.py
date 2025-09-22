@@ -11,6 +11,9 @@ import base64
 import requests
 from urllib.parse import quote
 from google.cloud import secretmanager
+from flask import Flask, jsonify
+
+app = Flask(__name__)
 
 GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID", "")
 
@@ -328,5 +331,18 @@ def main():
                 except Exception as e:
                     print(f"  - Failed to upsert {rel_path}: {e}")
 
+@app.route("/", methods=["GET", "POST"])
+def run_typst_sync():
+    try:
+        main()
+        return jsonify({"status": "success"}), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
+@app.route("/health", methods=["GET"])
+def health_check():
+    return jsonify({"status": "healthy"}), 200
+
 if __name__ == "__main__":
-    main()
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host="0.0.0.0", port=port)
