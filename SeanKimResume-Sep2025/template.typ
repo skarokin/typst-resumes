@@ -9,11 +9,9 @@
   linkedin: "",
   phone: "",
   personal-site: "",
-  orcid: "",
   accent-color: "#000000",
   font: "New Computer Modern",
   paper: "us-letter",
-  author-font-size: 20pt,
   font-size: 10pt,
   lang: "en",
   body,
@@ -32,7 +30,7 @@
     ligatures: false
   )
 
-  //Recommended to have 0.5in margin on all sides
+  // Recommended to have 0.5in margin on all sides
   set page(
     margin: (0.5in),
     paper: paper,
@@ -61,7 +59,7 @@
     #set align(author-position)
     #set text(
       weight: 700,
-      size: author-font-size,
+      size: 2*font-size,  // always 2x regular text
     )
     #pad(it.body)
   ]
