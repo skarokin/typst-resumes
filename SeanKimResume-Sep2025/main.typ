@@ -83,7 +83,7 @@
 
 == Technical Skills
 - *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
-- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK
+- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
 - *Cloud & Devops:* AWS, GCP, Terraform, Jenkins, Docker, Datadog
 - *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
 
