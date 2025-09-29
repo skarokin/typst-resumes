@@ -54,7 +54,7 @@
   name: "sixsevenlabs",
   url: "sixsevenlabs.com",
   github: "sixsevenlabs/sixsevenlabs",
-  tech-stack: "Go, Python, spaCy, AWS, PostgreSQL, Kafka, Stripe, Terraform"
+  tech-stack: "Go, Python, spaCy, PostgreSQL, Kafka, Stripe, Terraform, AWS"
 )
 - Architected a Step Functions data augmentation platform ingesting 10TB/month with 27% less cost vs. EC2.
 - Augmented 8GB/sec at peak throughput with the Distributed Map state across 1000s of concurrent Lambdas.
