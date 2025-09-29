@@ -65,7 +65,7 @@
   name: "copium",
   url: "copium.dev",
   github: "skarokin/copium",
-  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, GCP, Algolia"
+  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, Algolia, GCP, Cloudflare"
 )
 - Built an internship management platform with SvelteKit and PostgreSQL, processing 3000 weekly applications.
 - Scaled search engine indexes to 2k concurrent operations with Cloud Pub/Sub and Go consumers on Cloud Run.
@@ -84,7 +84,7 @@
 == Technical Skills
 - *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
 - *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
-- *Cloud & Devops:* AWS, GCP, Terraform, Jenkins, Docker, Datadog
+- *Cloud & Devops:* AWS, GCP, Cloudflare, Terraform, Jenkins, Docker, Datadog
 - *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
 
 == Education
