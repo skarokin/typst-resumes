@@ -51,13 +51,13 @@
 
 == Projects
 #project(
-  name: "coolname",
-  url: "cooldomain.com",
-  github: "skarokin/grammacy",
+  name: "sixsevenlabs",
+  url: "sixsevenlabs.com",
+  github: "sixsevenlabs/sixsevenlabs",
   tech-stack: "Go, Python, spaCy, AWS, PostgreSQL, Kafka, Stripe, Terraform"
 )
 - Architected a Step Functions data augmentation platform ingesting 10TB/month with 27% less cost vs. EC2.
-- Augmented 8GB/sec at peak throughput via Step Functions Map state across 1000s of concurrent Lambdas.
+- Augmented 8GB/sec at peak throughput with the Distributed Map state across 1000s of concurrent Lambdas.
 - Processed 1m daily events with a real-time usage metering system using Kinesis and Lambda for Stripe billing.
 - Engineered a job ingestion pipeline with SQS, queueing over 1000 job requests per minute with 0 data loss.
 
