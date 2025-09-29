@@ -54,7 +54,7 @@
   name: "copium",
   url: "copium.dev",
   github: "skarokin/copium",
-  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, GCP, Algolia"
+  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, Algolia, GCP, Cloudflare"
 )
 - Built an internship management platform with SvelteKit and PostgreSQL, processing 3000 weekly applications.
 - Scaled search engine indexes to 2k concurrent operations with Cloud Pub/Sub and Go consumers on Cloud Run.
