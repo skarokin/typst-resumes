@@ -38,7 +38,7 @@
 - Automated remediation for 12 SEV2+ Datadog monitors via SNS & Step Functions, cutting MTTR by 95%.
 - Platformized auto-remediation with Jenkins and Terraform, increasing coverage from 0 to 70% across 5 teams.
 - Built Bedrock knowledge base with Go, Lambda, S3, & EventBridge, indexing 5000 docs nightly in \<2 min.
-- Cut MTTA by 17% by serving LLM citations from the knowledge base with API Gateway, Lambda, and React.
+- Leveraged Bedrock to cut incident MTTA by 17% by unifying knowledge base with the Datadog MCP server.
 
 #work(
   title: "Software Engineer Intern",
