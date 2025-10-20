@@ -36,9 +36,10 @@
   dates: dates-helper(start-date: "May 2025", end-date: "Present"),
 )
 - Automated remediation for 12 SEV2+ Datadog monitors via SNS & Step Functions, cutting MTTR by 95%.
-- Platformized auto-remediation with Jenkins and Terraform, increasing coverage from 0 to 70% across 5 teams.
-- Built Bedrock knowledge graph with Go, Lambda, S3, & EventBridge, indexing 50k+ docs nightly in \<2 min.
-- Leveraged Bedrock to cut incident MTTA by 39% by unifying knowledge graph with the Datadog MCP server.
+- Platformized auto-remediation with Jenkins and Terraform, scaling coverage from 0 to 70% across 5 teams.
+- Built Go ingestion pipeline into S3 via Lambda & EventBridge, indexing 50k+ incident docs nightly in \<2 min.
+- Deployed Bedrock GraphRAG covering 20 core services with 73% improved search recall vs. traditional RAG.
+- Cut incident MTTA by 39% via Bedrock + Datadog MCP integration, correlating live metrics with resolutions.
 
 #work(
   title: "Software Engineer Intern",
