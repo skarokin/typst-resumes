@@ -111,7 +111,7 @@
 
   set list(
     body-indent: 0.5em,
-    spacing: 0.8em,
+    spacing: 0.75em,
   )
 
   body
