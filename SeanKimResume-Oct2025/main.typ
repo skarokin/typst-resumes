@@ -35,11 +35,11 @@
   company: "CyberArk",
   dates: dates-helper(start-date: "May 2025", end-date: "Present"),
 )
-- Automated remediation for 12 SEV2+ Datadog monitors via SNS & Step Functions, cutting MTTR by 95%.
-- Platformized auto-remediation with Jenkins and Terraform, scaling coverage from 0 to 70% across 5 teams.
-- Built Go ingestion pipeline into S3 via Lambda & EventBridge, indexing 50k+ incident docs nightly in \<2 min.
-- Deployed Bedrock GraphRAG covering 20 core services with 73% improved search recall vs. traditional RAG.
-- Cut incident MTTA by 39% via Bedrock + Datadog MCP integration, correlating live metrics with resolutions.
+- Automated remediation for 20 Datadog monitors via SNS & Python Step Functions, cutting MTTR by 95%.
+- Platformized auto-remediation with Jenkins and Terraform, increasing coverage from 0 to 70% across 5 teams.
+- Built S3 data ingestion pipeline using Go Lambdas, incrementally updating 50k+ docs nightly in under 10 min.
+- Deployed an AWS Strands agent with Bedrock & Lambda, improving search recall by 73% with agentic RAG.
+- Cut incident MTTA by 39% with AWS MCP & Datadog MCP, correlating live metrics with LLM resolutions.
 
 #work(
   title: "Software Engineer Intern",
@@ -53,25 +53,25 @@
 == Projects
 #project(
   name: "sixsevenlabs",
-  url: "sixsevenlabs.com",
+  // url: "sixsevenlabs.com",
   github: "sixsevenlabs/sixsevenlabs",
   tech-stack: "Go, Python, spaCy, PostgreSQL, Kafka, Stripe, Terraform, AWS"
 )
 - Architected a Step Functions data augmentation platform ingesting 10TB/month with 27% less cost vs. EC2.
-- Augmented 8GB/sec at peak throughput with the Distributed Map state across 1000s of concurrent Lambdas.
+- Augmented 2GB/sec at peak throughput with the Distributed Map state across 1000s of concurrent Lambdas.
 - Processed 1m daily events with a real-time usage metering system using Kinesis and Lambda for Stripe billing.
 - Engineered a job ingestion pipeline with SQS, queueing over 1000 job requests per minute with 0 data loss.
 
 #project(
-  name: "copium",
+  name: "copium.dev",
   url: "copium.dev",
   github: "skarokin/copium",
-  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, Algolia, GCP, Cloudflare"
+  tech-stack: "Go, TypeScript, SvelteKit, PostgreSQL, Algolia, Docker, GCP, Cloudflare"
 )
 - Built an internship management platform with SvelteKit and PostgreSQL, processing 3000 weekly applications.
 - Scaled search engine indexes to 2k concurrent operations with Cloud Pub/Sub and Go consumers on Cloud Run.
 - Delivered an 81% reduction in query latency for BigQuery data analytics by leveraging CQRS architecture.
-- Implemented compensating transactions for consistency across 3 data stores with a 99.9% successful retry rate.
+- Implemented compensating transactions for consistency across 3 data stores with a 99.99% successful retry rate.
 
 #project(
   name: "ref:note",
