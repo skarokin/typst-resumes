@@ -35,9 +35,9 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Automated remediation for 20 Datadog monitors via SNS & Python Step Functions, cutting MTTR by 95%.
-- Platformized auto-remediation with Jenkins and Terraform, increasing coverage from 0 to 70% across 5 teams.
-- Achieved 99.99% availability for the auto-remediation platform by deploying to multi-region availability zones.
+- Platformized an auto-remediation system via SNS & Step Functions, driving 70% adoption across 5 engineering teams.
+- Automated 20+ critical Datadog alerts with Python which cut MTTR by 95%, with dry-run safety checks and human escalation to prevent accidental production outages.
+- Ensured 99.99% availability by designing an active-active multi-region architecture 
 
 #work(
   title: "Site Reliability Engineer Intern",
@@ -60,17 +60,6 @@
 
 == Projects
 #project(
-  name: "sixsevenlabs",
-  // url: "sixsevenlabs.com",
-  github: "sixsevenlabs/sixsevenlabs",
-  tech-stack: "Go, Python, spaCy, PostgreSQL, Kafka, Stripe, Terraform, AWS"
-)
-- Architected a Step Functions pipeline to augment CoNLL-U datasets from S3 for downstream NLP tasks.
-- Augmented 300MB/sec at peak throughput with the Distributed Map state across 150+ concurrent Lambdas.
-- Processed 100k daily events with a real-time usage metering system using Kinesis and Lambda for Stripe billing.
-- Engineered a job ingestion pipeline with SQS, queueing over 200 job requests per minute with 0 data loss.
-
-#project(
   name: "copium.dev",
   url: "copium.dev",
   github: "skarokin/copium",
@@ -80,6 +69,16 @@
 - Scaled Algolia search engine indexes to 500 concurrent ops with Cloud Pub/Sub & Go consumers on Cloud Run.
 - Delivered an 81% reduction in query latency for BigQuery data analytics by leveraging CQRS architecture.
 - Implemented compensating transactions for consistency across 3 data stores with a 99.99% successful retry rate.
+
+#project(
+  name: "ref:note",
+  url: "refnote.app",
+  github: "skarokin/ref-note",
+  tech-stack: "Go, TypeScript, Node.js, Next.js, Docker, Redis, GCP, Vercel"
+)
+- Launched a Next.js collaborative note editor on Vercel, supporting 1000 concurrent collaborative sessions.
+- Reduced deployment costs by 37% by optimizing Node.js WebSocket synchronization with Redis Pub/Sub.
+- Deployed a Go backend on Cloud Run via Docker with sub-50ms cold starts for low-latency Firestore queries.
 
 == Technical Skills
 - *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
