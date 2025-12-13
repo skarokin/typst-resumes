@@ -38,7 +38,6 @@
 - Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
 - Automated 20+ Datadog alerts via Python with dry-runs & human fallback on failure, cutting MTTR by 95%.
 - Maintained 99.99% availability with 0 race conditions by implementing distributed locking with ElastiCache.
-- Guaranteed 0 race conditions and idempotent execution by implementing distributed locking with ElastiCache.
 
 #work(
   title: "Site Reliability Engineer Intern",
