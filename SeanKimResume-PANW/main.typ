@@ -35,9 +35,10 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Platformized an auto-remediation system via SNS & Step Functions, driving 70% adoption across 5 engineering teams.
-- Automated 20+ critical Datadog alerts with Python which cut MTTR by 95%, with dry-run safety checks and human escalation to prevent accidental production outages.
-- Ensured 99.99% availability by designing an active-active multi-region architecture 
+- Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
+- Automated 20+ Datadog alerts via Python with dry-runs & human fallback on failure, cutting MTTR by 95%.
+- Maintained 99.99% availability with 0 race conditions by implementing distributed locking with ElastiCache.
+- Guaranteed 0 race conditions and idempotent execution by implementing distributed locking with ElastiCache.
 
 #work(
   title: "Site Reliability Engineer Intern",
