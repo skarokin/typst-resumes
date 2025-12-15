@@ -28,6 +28,12 @@
   personal-info-position: left,
 )
 
+== Technical Skills
+- *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
+- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
+- *Cloud & Devops:* AWS, GCP, Cloudflare, Terraform, Jenkins, Docker, Datadog
+- *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
+
 == Experience
 #work(
   title: "Site Reliability Engineer",
@@ -37,7 +43,7 @@
 )
 - Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
 - Automated 20+ Datadog alerts via Python with dry-runs & human fallback on failure, cutting MTTR by 95%.
-- Maintained 99.99% availability with 0 race conditions by implementing distributed locking with ElastiCache.
+- Guaranteed 99.99% availability & 0 race conditions using ElastiCache distributed locking for atomic executions.
 
 #work(
   title: "Site Reliability Engineer Intern",
@@ -45,8 +51,9 @@
   company: "CyberArk",
   dates: dates-helper(start-date: "May 2025", end-date: "Jan 2026"),
 )
-- Deployed an AWS Strands agent with Bedrock & Lambda, improving search recall by 73% with agentic RAG.
+- Deployed a FedRAMP High compliant Bedrock & Strands agent via API Gateway & Lambda in isolated VPCs.
 - Cut incident MTTA by 39% with AWS MCP & Datadog MCP, correlating live metrics with LLM resolutions.
+- Instrumented end-to-end agent observability in Datadog, reducing P99 latency by 45% with tool call profiling.
 - Built S3 data ingestion pipeline using Go Lambdas, incrementally updating 50k+ docs nightly in under 10 min.
 
 #work(
@@ -55,7 +62,7 @@
   company: "ACL Agency LLC",
   dates: dates-helper(start-date: "May 2024", end-date: "Aug 2024"),
 )
-- Migrated legacy VMs to AWS EC2 with Auto Scaling and ELB, reducing monthly infrastructure costs by 19%.
+- Migrated legacy VMs to AWS EC2 with Auto Scaling & ELB, reducing monthly infrastructure costs by 19%.
 - Processed over 500 batch insurance claims 42% faster by optimizing an internal Go service with goroutines.
 
 == Projects
@@ -79,12 +86,6 @@
 - Launched a Next.js collaborative note editor on Vercel, supporting 1000 concurrent collaborative sessions.
 - Reduced deployment costs by 37% by optimizing Node.js WebSocket synchronization with Redis Pub/Sub.
 - Deployed a Go backend on Cloud Run via Docker with sub-50ms cold starts for low-latency Firestore queries.
-
-== Technical Skills
-- *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
-- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
-- *Cloud & Devops:* AWS, GCP, Cloudflare, Terraform, Jenkins, Docker, Datadog
-- *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
 
 == Education
 #edu(
