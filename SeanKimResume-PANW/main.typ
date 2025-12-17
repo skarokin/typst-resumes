@@ -90,8 +90,8 @@
 == Education
 #edu(
   institution: "Rutgers University" + $dash.em$ + "New Brunswick",
-  gpa: "3.84",
-  dates: dates-helper(start-date: "Sep 2022", end-date: "Dec 2025"),
-  degree: "Bachelor's of Arts in Computer Science"
+  gpa: "3.86",
+  dates: dates-helper(start-date: "Sep 2022", end-date: "Jan 2026"),
+  degree: "Bachelor of Arts in Computer Science"
 )
 - *Relevant Coursework:* Data Structures and Algorithms, Databases, Computer Architecture, Deep Learning
