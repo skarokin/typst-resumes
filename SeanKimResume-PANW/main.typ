@@ -54,7 +54,7 @@
 - Deployed a FedRAMP High compliant Bedrock & Strands agent via API Gateway & Lambda in isolated VPCs.
 - Cut incident MTTA by 39% with AWS MCP & Datadog MCP, correlating live metrics with LLM resolutions.
 - Instrumented end-to-end agent observability in Datadog, reducing P99 latency by 45% with tool call profiling.
-- Built S3 data ingestion pipeline using Go Lambdas, incrementally updating 50k+ docs nightly in under 10 min.
+- Built S3 data ingestion pipeline with a Go Lambda, incrementally updating 50k+ docs nightly in under 2 min.
 
 #work(
   title: "Software Engineer Intern",
