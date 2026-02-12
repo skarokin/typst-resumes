@@ -43,7 +43,7 @@
 )
 - Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
 - Automated 20+ Datadog alerts via Python with dry-runs & human fallback on failure, cutting MTTR by 95%.
-- Guaranteed 99.99% availability & 0 race conditions using ElastiCache distributed locking for atomic executions.
+- Guaranteed 99.99% availability & 0 race conditions using Valkey distributed locking for atomic executions.
 
 #work(
   title: "Site Reliability Engineer Intern",
@@ -52,7 +52,7 @@
   dates: dates-helper(start-date: "May 2025", end-date: "Jan 2026"),
 )
 - Deployed a FedRAMP High compliant Bedrock & Strands agent via API Gateway & Lambda in isolated VPCs.
-- Cut incident MTTA by 39% with AWS MCP & Datadog MCP, correlating live metrics with LLM resolutions.
+- Cut incident MTTA by 39% with multiple MCP integrations, correlating live metrics with LLM resolutions.
 - Instrumented end-to-end agent observability in Datadog, reducing P99 latency by 45% with tool call profiling.
 - Built S3 data ingestion pipeline with a Go Lambda, incrementally updating 50k+ docs nightly in under 2 min.
 
