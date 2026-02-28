@@ -41,9 +41,10 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
-- Automated 20+ Datadog alerts via Python with dry-runs & human fallback on failure, cutting MTTR by 95%.
-- Guaranteed 99.99% availability & 0 race conditions using Valkey distributed locking for atomic executions.
+- Engineered an MCP gateway on AWS Fargate to centralize subagent governance, dynamically routing user-scoped tools based on Cognito role claims and accelerating security patching by 60%.
+- Architected a FedRAMP High-compliant LLM inference backend via API Gateway and AWS Lambda, serving as the central MCP client to this gateway for 10 engineering teams.
+- Aggregated LLM metrics, logs, and traces across all teams' subagents and tools into a unified Datadog dashboard, utilizing tool call profiling & subagent traces to reduce end-to-end P99 latency by 45%.
+- Integrated an SRE & incident management subagent into the MCP gateway to automate incident triage and surface root-cause resolutions, processing 100+ weekly alerts and cutting overall MTTA by 39%.
 
 #work(
   title: "Site Reliability Engineer Intern",
@@ -51,19 +52,9 @@
   company: "CyberArk",
   dates: dates-helper(start-date: "May 2025", end-date: "Jan 2026"),
 )
-- Deployed a FedRAMP High compliant Bedrock & Strands agent via API Gateway & Lambda in isolated VPCs.
-- Cut incident MTTA by 39% with multiple MCP integrations, correlating live metrics with LLM resolutions.
-- Instrumented end-to-end agent observability in Datadog, reducing P99 latency by 45% with tool call profiling.
-- Built S3 data ingestion pipeline with a Go Lambda, incrementally updating 50k+ docs nightly in under 2 min.
-
-#work(
-  title: "Software Engineer Intern",
-  location: "Ridgefield, NJ",
-  company: "ACL Agency LLC",
-  dates: dates-helper(start-date: "May 2024", end-date: "Aug 2024"),
-)
-- Migrated legacy VMs to AWS EC2 with Auto Scaling & ELB, reducing monthly infrastructure costs by 19%.
-- Processed over 500 batch insurance claims 42% faster by optimizing an internal Go service with goroutines.
+- Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
+- Automated 20 Datadog alerts via Python with dry-runs & human escalation on failure, cutting MTTR by 95%.
+- Guaranteed 99.99% availability & 0 race conditions using Valkey distributed locking for atomic executions.
 
 == Projects
 #project(
