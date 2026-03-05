@@ -41,8 +41,8 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Engineered an MCP gateway on AWS Fargate to centralize subagent governance, dynamically routing user-scoped tools based on Cognito role claims and accelerating security patching by 60%.
-- Architected a FedRAMP High-compliant LLM inference backend via API Gateway and AWS Lambda, serving as the central MCP client to this gateway for 10 engineering teams.
+- Engineered an A2A gateway on AWS Fargate to centralize remote agent governance, dynamically routing user-scoped agent access based on Cognito role claims and accelerating security patching by 60%.
+- Architected a FedRAMP High-compliant LLM inference backend via Bedrock AgentCore Runtime & AgentCore Identity, serving as the central entrypoint agent to this gateway for 10 engineering teams.
 - Aggregated LLM metrics, logs, and traces across all teams' subagents and tools into a unified Datadog dashboard, utilizing tool call profiling & subagent traces to reduce end-to-end P99 latency by 45%.
 - Integrated an SRE & incident management subagent into the MCP gateway to automate incident triage and surface root-cause resolutions, processing 100+ weekly alerts and cutting overall MTTA by 39%.
 
@@ -55,6 +55,7 @@
 - Platformized an auto-remediation system via SNS, Step Functions, & Terraform with 70% adoption in 5 teams.
 - Automated 20 Datadog alerts via Python with dry-runs & human escalation on failure, cutting MTTR by 95%.
 - Guaranteed 99.99% availability & 0 race conditions using Valkey distributed locking for atomic executions.
+- Safeguarded prod with a phased rollout system and distributed tracing, catching 95% of bugs pre-production.
 
 == Projects
 #project(
