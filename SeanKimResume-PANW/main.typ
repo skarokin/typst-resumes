@@ -44,7 +44,8 @@
 - Engineered an A2A gateway on AWS Fargate to centralize remote agent governance, dynamically routing user-scoped agent access based on Cognito role claims and accelerating security patching by 60%.
 - Architected a FedRAMP High-compliant LLM inference backend via Bedrock AgentCore Runtime & AgentCore Identity, serving as the central entrypoint agent to this gateway for 10 engineering teams.
 - Aggregated LLM metrics, logs, and traces across all teams' subagents and tools into a unified Datadog dashboard, utilizing tool call profiling & subagent traces to reduce end-to-end P99 latency by 45%.
-- Integrated an SRE & incident management subagent into the MCP gateway to automate incident triage and surface root-cause resolutions, processing 100+ weekly alerts and cutting overall MTTA by 39%.
+- Built an AWS Cedar policy engine for MCP servers, blocking 100% of unauthorized tool use  with \<1ms latency.
+- Integrated an SRE subagent into the A2A gateway, automating root cause & triage which cut MTTA by 39%.
 
 #work(
   title: "Site Reliability Engineer Intern",
