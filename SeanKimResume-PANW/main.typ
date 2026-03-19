@@ -28,11 +28,14 @@
   personal-info-position: left,
 )
 
-== Technical Skills
-- *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
-- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
-- *Cloud & Devops:* AWS, GCP, Cloudflare, Terraform, Jenkins, Docker, Datadog
-- *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
+== Education
+#edu(
+  institution: "Rutgers University" + $dash.em$ + "New Brunswick",
+  gpa: "3.86",
+  dates: dates-helper(start-date: "Sep 2022", end-date: "Jan 2026"),
+  degree: "Bachelor of Arts in Computer Science"
+)
+- *Relevant Coursework:* Data Structures and Algorithms, Databases, Computer Architecture, Deep Learning
 
 == Experience
 #work(
@@ -41,7 +44,7 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Engineered an A2A gateway on AWS Fargate to centralize remote agent governance, dynamically routing user-scoped agent access based on Cognito role claims and accelerating security patching by 60%.
+- Engineered an Agent2Agent gateway on AWS Fargate to centralize remote agent governance, dynamically routing user-scoped agent access based on Cognito role claims and accelerating security patching by 60%.
 - Architected a FedRAMP High-compliant LLM inference backend via Bedrock AgentCore Runtime & AgentCore Identity, serving as the central entrypoint agent to this gateway for 10 engineering teams.
 - Aggregated LLM metrics, logs, and traces across all teams' subagents and tools into a unified Datadog dashboard, utilizing tool call profiling & subagent traces to reduce end-to-end P99 latency by 45%.
 - Built an AWS Cedar policy engine for MCP servers, blocking 100% of unauthorized tool use  with \<1ms latency.
@@ -80,11 +83,9 @@
 - Reduced deployment costs by 37% by optimizing Node.js WebSocket synchronization with Redis Pub/Sub.
 - Deployed a Go backend on Cloud Run via Docker with sub-50ms cold starts for low-latency Firestore queries.
 
-== Education
-#edu(
-  institution: "Rutgers University" + $dash.em$ + "New Brunswick",
-  gpa: "3.86",
-  dates: dates-helper(start-date: "Sep 2022", end-date: "Jan 2026"),
-  degree: "Bachelor of Arts in Computer Science"
-)
-- *Relevant Coursework:* Data Structures and Algorithms, Databases, Computer Architecture, Deep Learning
+
+== Technical Skills
+- *Programming Languages:* Go, Python, SQL, TypeScript, JavaScript, Java, C
+- *Libraries & Frameworks:* Node.js, SvelteKit, React, Next.js, PyTorch, spaCy, NLTK, NumPy, Pandas
+- *Cloud & Devops:* AWS, GCP, Cloudflare, Terraform, Jenkins, Docker, Datadog
+- *Platforms & Data:* Git, PostgreSQL, Nginx, RabbitMQ, Redis, Kafka
