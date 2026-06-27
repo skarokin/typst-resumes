@@ -43,12 +43,12 @@
   company: "Palo Alto Networks",
   dates: dates-helper(start-date: "Feb 2026", end-date: "Present")
 )
-- Engineered a FedRAMP High AI SRE agent on Lambda/API Gateway with 12 MCP integrations, orchestrating subagents for parallel root-cause and triage which cut investigation time from \~30m to \~5m and MTTR by 47%.
+- Engineered an AI SRE agent on Lambda & API Gateway, used by 200 incident responders across 4 teams for root-cause and triage which cut investigation time from \~30m to \~5m and MTTR by 47% on P1 incidents.
 - Hardened agent safety with Bedrock Guardrails, HITL, and RBAC, which masked sensitive data, caught 93% of hallucination cases, blocked unauthorized tool use, and gated high-risk tools through human approval flows.
 - Centralized LLM observability in Datadog, adding monitors that reduced time to detect regressions by 93%.
 - Architected an autoremediation platform with SNS, Lambda, DynamoDB, and S3, turning ad-hoc Python scripts into safe production automations which reduced MTTR for 42 Datadog monitors to under 5 seconds.
 - Built a DynamoDB policy engine and Slack control plane, combining runtime config, human escalation, idempotent retries, atomic locks, and recurrence windows to block 100% of unsafe or conflicting executions.
-- Guaranteed safe, auditable executions via 97% test coverage and Pydantic validation, while leveraging S3 audit trails and Datadog traces, logging, and custom metrics to enable sub-5 minute RCA for failed remediations.
+- Guaranteed safe, auditable executions via 97% test coverage and Pydantic validation, while leveraging S3 audit trails and Datadog traces, logging, and custom metrics to enable sub-5 minute RCA for failed automations.
 
 
 #work(
@@ -57,9 +57,9 @@
   company: "CyberArk",
   dates: dates-helper(start-date: "May 2025", end-date: "Jan 2026"),
 )
+- Built an AI SRE agent for internal hackathon to prototype AI-assisted incident response.
 - Prototyped an SNS and Step Functions auto-remediation pipeline to validate zero-touch alert resolution.
 - Automated 3 Datadog alerts by implementing runbooks in Python, cutting the MTTR for those alerts by 95%.
-- Built an AI SRE agent with Confluence, GitHub, and Datadog integrations to accelerate incident response.
 
 == Projects
 #project(
